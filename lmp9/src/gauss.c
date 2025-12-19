@@ -41,7 +41,9 @@ int eliminate(Matrix *mat, Matrix *b) {
 
     if (fabs(mat->data[n - 1][n - 1]) < 1e-12) {
         return 1;
+    //zwraca 1
     }
+    
 
     return 0;
 }
